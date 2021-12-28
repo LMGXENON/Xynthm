@@ -120,8 +120,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         primary: Colors.transparent,
                       ),
                       onPressed: () {
-                        const String upiUrl =
-                            'upi://pay?pa=8570094149@okbizaxis&pn=BlackHole&mc=5732&aid=uGICAgIDn98OpSw&tr=BCR2DN6T37O6DB3Q';
+                        const String upiUrl = 'https://xynthm.com';
                         launch(upiUrl);
                       },
                       onLongPress: () {
